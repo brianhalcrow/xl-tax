@@ -151,7 +151,7 @@
 
   /* ── hero ───────────────────────────────────────────── */
 
-  .hero{padding:clamp(56px,11vh,120px) 0 clamp(40px,7vh,72px)}
+  .hero{padding:clamp(52px,10vh,112px) 0 0}
 
   .status{
     display:inline-flex;
@@ -203,7 +203,7 @@
     grid-template-columns:repeat(auto-fit,minmax(168px,1fr));
     border-top:1px solid var(--rule-strong);
     border-left:1px solid var(--rule-strong);
-    margin:clamp(48px,8vh,84px) 0 0;
+    margin:clamp(44px,7vh,76px) 0 0;
   }
   .cell{
     border-right:1px solid var(--rule-strong);
@@ -228,7 +228,8 @@
 
   /* ── argument ───────────────────────────────────────── */
 
-  section{padding:clamp(56px,9vh,96px) 0}
+  section{padding-top:clamp(52px,8vh,88px)}
+  section:last-of-type{padding-bottom:clamp(40px,6vh,64px)}
 
   .eyebrow{
     font-size:10px;
