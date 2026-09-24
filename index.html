@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>xl.tax — premium two-letter domain for sale</title>
+<meta name="description" content="xl.tax is for sale. A two-letter domain on the exact-match .tax TLD — XL reads as Excel to every accountant, bookkeeper and tax professional. Offers invited.">
+<link rel="canonical" href="https://xl.tax/">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://xl.tax/">
+<meta property="og:title" content="xl.tax — premium two-letter domain for sale">
+<meta property="og:description" content="Two letters. The exact-match tax TLD. XL reads as Excel to every accountant on earth. Offers invited.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="xl.tax — premium two-letter domain for sale">
+<meta name="twitter:description" content="Two letters. The exact-match tax TLD. Offers invited.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a0b0a'/><text y='.9em' x='50%25' text-anchor='middle' font-size='78' fill='%23d8a03a' font-family='Georgia,serif'>x</text></svg>">
+
+<style>
+  :root{
+    --ink:#0a0b0a;
+    --panel:#0f110f;
+    --rule:rgba(236,231,221,.07);
+    --rule-strong:rgba(236,231,221,.14);
+    --bone:#ece7dd;
+    --muted:#88857c;
+    --amber:#d8a03a;
+    --amber-lift:#f2c873;
+    --cell:22px;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  html{-webkit-text-size-adjust:100%}
+
+  body{
+    background:var(--ink);
+    color:var(--bone);
+    font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:14px;
+    line-height:1.6;
+    min-height:100vh;
+    overflow-x:hidden;
+    /* the sheet itself */
+    background-image:
+      linear-gradient(to right,var(--rule) 1px,transparent 1px),
+      linear-gradient(to bottom,var(--rule) 1px,transparent 1px);
+    background-size:var(--cell) var(--cell);
+    background-position:-1px -1px;
+  }
+
+  /* warm pool of light behind the hero, so the grid fades at the edges */
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background:
+      radial-gradient(120% 80% at 50% 0%,rgba(216,160,58,.10),transparent 60%),
+      radial-gradient(100% 100% at 50% 40%,transparent 30%,var(--ink) 92%);
+    z-index:0;
+  }
+
+  /* grain */
+  body::after{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    z-index:1;
+    opacity:.16;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+  }
+
+  .sheet{position:relative;z-index:2}
+
+  /* ── spreadsheet chrome ─────────────────────────────── */
+
+  .bar{
+    display:flex;
+    align-items:stretch;
+    border-bottom:1px solid var(--rule-strong);
+    background:rgba(10,11,10,.72);
+    backdrop-filter:blur(6px);
+    font-size:11px;
+    letter-spacing:.06em;
+  }
+  .namebox{
+    flex:0 0 96px;
+    padding:9px 12px;
+    border-right:1px solid var(--rule-strong);
+    color:var(--muted);
+  }
+  .fx{
+    flex:0 0 auto;
+    padding:9px 12px;
+    border-right:1px solid var(--rule-strong);
+    color:var(--muted);
+    font-style:italic;
+    font-family:'Instrument Serif',Georgia,serif;
+    font-size:15px;
+  }
+  .formula{
+    padding:9px 14px;
+    color:var(--bone);
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .formula .fn{color:var(--amber)}
+
+  .colheads{
+    display:grid;
+    grid-template-columns:34px repeat(12,1fr);
+    border-bottom:1px solid var(--rule-strong);
+    font-size:10px;
+    color:rgba(136,133,124,.55);
+  }
+  .colheads span{
+    padding:5px 0;
+    text-align:center;
+    border-right:1px solid var(--rule);
+  }
+  .colheads span:first-child{border-right-color:var(--rule-strong)}
+
+  .body-wrap{display:flex}
+
+  .rowheads{
+    flex:0 0 34px;
+    border-right:1px solid var(--rule-strong);
+    font-size:10px;
+    color:rgba(136,133,124,.55);
+    text-align:center;
+    padding-top:6px;
+  }
+  .rowheads div{height:var(--cell);line-height:var(--cell)}
+
+  main{flex:1 1 auto;min-width:0}
+
+  .inner{
+    max-width:920px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  /* ── hero ───────────────────────────────────────────── */
+
+  .hero{padding:clamp(56px,11vh,120px) 0 clamp(40px,7vh,72px)}
+
+  .status{
+    display:inline-flex;
+    align-items:center;
+    gap:9px;
+    font-size:11px;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    color:var(--amber);
+    border:1px solid rgba(216,160,58,.32);
+    background:rgba(216,160,58,.06);
+    padding:6px 14px;
+    margin-bottom:clamp(24px,5vh,44px);
+  }
+  .dot{
+    width:6px;height:6px;border-radius:50%;
+    background:var(--amber);
+    box-shadow:0 0 0 0 rgba(216,160,58,.6);
+    animation:ping 2.6s ease-out infinite;
+  }
+  @keyframes ping{
+    0%{box-shadow:0 0 0 0 rgba(216,160,58,.55)}
+    70%{box-shadow:0 0 0 9px rgba(216,160,58,0)}
+    100%{box-shadow:0 0 0 0 rgba(216,160,58,0)}
+  }
+
+  h1{
+    font-family:'Instrument Serif',Georgia,serif;
+    font-weight:400;
+    font-size:clamp(76px,17vw,188px);
+    line-height:.84;
+    letter-spacing:-.025em;
+    margin-bottom:clamp(22px,4vh,34px);
+  }
+  h1 .tld{color:var(--amber);font-style:italic}
+
+  .lede{
+    font-family:'Instrument Serif',Georgia,serif;
+    font-size:clamp(21px,3.1vw,31px);
+    line-height:1.32;
+    max-width:19em;
+    color:rgba(236,231,221,.9);
+  }
+
+  /* ── fact cells ─────────────────────────────────────── */
+
+  .cells{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(168px,1fr));
+    border-top:1px solid var(--rule-strong);
+    border-left:1px solid var(--rule-strong);
+    margin:clamp(48px,8vh,84px) 0 0;
+  }
+  .cell{
+    border-right:1px solid var(--rule-strong);
+    border-bottom:1px solid var(--rule-strong);
+    padding:18px 18px 20px;
+    transition:background .25s ease;
+  }
+  .cell:hover{background:rgba(216,160,58,.045)}
+  .cell .k{
+    font-size:10px;
+    letter-spacing:.17em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:9px;
+  }
+  .cell .v{
+    font-family:'Instrument Serif',Georgia,serif;
+    font-size:27px;
+    line-height:1.1;
+  }
+  .cell .v.sm{font-size:21px}
+
+  /* ── argument ───────────────────────────────────────── */
+
+  section{padding:clamp(56px,9vh,96px) 0}
+
+  .eyebrow{
+    font-size:10px;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:26px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  .eyebrow::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:var(--rule-strong);
+  }
+
+  .points{display:grid;gap:1px;background:var(--rule-strong);border:1px solid var(--rule-strong)}
+  @media(min-width:760px){.points{grid-template-columns:repeat(3,1fr)}}
+  .point{background:var(--ink);padding:26px 24px 30px}
+  .point h3{
+    font-family:'Instrument Serif',Georgia,serif;
+    font-weight:400;
+    font-size:24px;
+    line-height:1.18;
+    margin-bottom:12px;
+  }
+  .point h3 em{color:var(--amber);font-style:italic}
+  .point p{color:var(--muted);font-size:13px;line-height:1.72}
+
+  /* ── offer ──────────────────────────────────────────── */
+
+  .offer{
+    border:1px solid var(--rule-strong);
+    background:linear-gradient(180deg,rgba(216,160,58,.05),transparent 70%);
+    padding:clamp(34px,6vw,58px);
+    text-align:center;
+  }
+  .offer h2{
+    font-family:'Instrument Serif',Georgia,serif;
+    font-weight:400;
+    font-size:clamp(34px,5.6vw,52px);
+    line-height:1.08;
+    margin-bottom:16px;
+  }
+  .offer p{color:var(--muted);max-width:36em;margin:0 auto 32px;font-size:13px}
+
+  .cta{
+    display:inline-block;
+    background:var(--amber);
+    color:#12100b;
+    padding:15px 38px;
+    font-weight:600;
+    font-size:13px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    text-decoration:none;
+    border:1px solid var(--amber);
+    transition:background .2s ease,transform .2s ease,box-shadow .2s ease;
+  }
+  .cta:hover{
+    background:var(--amber-lift);
+    transform:translateY(-2px);
+    box-shadow:0 12px 30px -12px rgba(216,160,58,.55);
+  }
+  .cta:focus-visible{outline:2px solid var(--amber-lift);outline-offset:3px}
+
+  .alt{
+    margin-top:22px;
+    font-size:12px;
+    color:var(--muted);
+  }
+  .alt a{color:var(--bone);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+  .alt a:hover{border-bottom-color:var(--amber);color:var(--amber)}
+
+  footer{
+    border-top:1px solid var(--rule-strong);
+    padding:26px 0 44px;
+    font-size:11px;
+    color:rgba(136,133,124,.7);
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 22px;
+    justify-content:space-between;
+  }
+
+  /* ── load-in ────────────────────────────────────────── */
+
+  .rise{opacity:0;transform:translateY(14px);animation:rise .9s cubic-bezier(.2,.7,.25,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .d1{animation-delay:.05s}.d2{animation-delay:.16s}.d3{animation-delay:.28s}
+  .d4{animation-delay:.4s}.d5{animation-delay:.52s}
+
+  @media(prefers-reduced-motion:reduce){
+    .rise{animation:none;opacity:1;transform:none}
+    .dot{animation:none}
+    .cta:hover{transform:none}
+  }
+
+  @media(max-width:700px){
+    .colheads{grid-template-columns:28px repeat(6,1fr)}
+    .colheads span:nth-child(n+8){display:none}
+    .rowheads{flex-basis:28px}
+    .fx,.namebox{display:none}
+    .inner{padding:0 18px}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="bar">
+    <div class="namebox">A1</div>
+    <div class="fx">fx</div>
+    <div class="formula"><span class="fn">=ASSET</span>("xl.tax", status:"for sale")</div>
+  </div>
+
+  <div class="colheads" aria-hidden="true">
+    <span></span><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span>
+    <span>F</span><span>G</span><span>H</span><span>I</span><span>J</span><span>K</span><span>L</span>
+  </div>
+
+  <div class="body-wrap">
+    <div class="rowheads" aria-hidden="true"></div>
+
+    <main>
+      <div class="inner">
+
+        <div class="hero">
+          <div class="status rise d1"><span class="dot"></span>This domain is for sale</div>
+          <h1 class="rise d2">xl<span class="tld">.tax</span></h1>
+          <p class="lede rise d3">Two letters, on the one top-level domain that says exactly what the business does.</p>
+        </div>
+
+        <div class="cells rise d4">
+          <div class="cell"><div class="k">Domain</div><div class="v">xl.tax</div></div>
+          <div class="cell"><div class="k">Length</div><div class="v">2 characters</div></div>
+          <div class="cell"><div class="k">Extension</div><div class="v">.tax</div></div>
+          <div class="cell"><div class="k">Price</div><div class="v sm">Offers invited</div></div>
+        </div>
+
+        <section>
+          <div class="eyebrow">Why this one</div>
+          <div class="points">
+            <div class="point">
+              <h3><em>XL</em> already means spreadsheet</h3>
+              <p>To every accountant, bookkeeper and tax adviser, XL is Excel. You inherit that association free — no explaining, no campaign to teach anyone what the name means.</p>
+            </div>
+            <div class="point">
+              <h3>An <em>exact-match</em> extension</h3>
+              <p>.tax is not a workaround for a taken .com. The category sits in the domain itself, so the whole name is only four letters of signal: what it is, and what it is for.</p>
+            </div>
+            <div class="point">
+              <h3>Two characters, <em>nothing</em> to spell</h3>
+              <p>Short enough to say once on a call and have it land. No hyphens, no substituted letters, no "that's with a Z". It survives radio, a business card, and a URL bar.</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="offer rise d5">
+            <h2>Make an offer</h2>
+            <p>Enquiries from principals and brokers both welcome. Tell us who you are and what you have in mind — every serious offer gets a reply.</p>
+            <a class="cta" href="mailto:sales@xl.tax?subject=Offer%20for%20xl.tax&amp;body=Name%3A%0D%0ACompany%3A%0D%0AOffer%20(GBP)%3A%0D%0A%0D%0AAnything%20else%20we%20should%20know%3A%0D%0A">Email an offer</a>
+            <p class="alt">or write directly to <a href="mailto:sales@xl.tax">sales@xl.tax</a></p>
+          </div>
+        </section>
+
+        <footer>
+          <span>xl.tax</span>
+          <span>Domain name only — no business, website or trading assets are included.</span>
+        </footer>
+
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+  // Fill the row gutter to whatever the page actually grew to, so the
+  // numbering lines up with the background grid instead of guessing.
+  (function () {
+    var gutter = document.querySelector('.rowheads');
+    if (!gutter) return;
+
+    function paint() {
+      var cell = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--cell'), 10) || 22;
+      var rows = Math.ceil(document.body.scrollHeight / cell);
+      if (rows === gutter.childElementCount) return;
+      var out = '';
+      for (var i = 1; i <= rows; i++) out += '<div>' + i + '</div>';
+      gutter.innerHTML = out;
+    }
+
+    paint();
+    addEventListener('resize', paint);
+    // fonts land after first paint and change the height
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(paint);
+  })();
+</script>
+</body>
+</html>
